@@ -281,14 +281,14 @@ b, strong {
   color: #0c0c0d;
 }
 
-.timeline-wrapper {
+.settings-wrapper {
   position: relative;
   padding: 22px 0;
 }
-.timeline-wrapper:last-child:before {
+.settings-wrapper:last-child:before {
   height: 0;
 }
-.timeline-wrapper:before {
+.settings-wrapper:before {
   content: "";
   background: #474559;
   width: 3px;
@@ -297,7 +297,7 @@ b, strong {
   left: 38px;
 }
 
-.timeline-yr {
+.settings-yr {
   background: #474559;
   border-radius: 100%;
   position: absolute;
@@ -306,7 +306,7 @@ b, strong {
   line-height: 75px;
   text-align: center;
 }
-.timeline-yr span {
+.settings-yr span {
   color: #0c0c0d;
   font-size: 16px;
   font-weight: bold;
@@ -314,13 +314,13 @@ b, strong {
   line-height: 75px;
 }
 
-.timeline-info {
+.settings-info {
   display: inline-block;
   vertical-align: top;
   max-width: 432px;
   margin-left: 6em;
 }
-.timeline-info small {
+.settings-info small {
   color: #474559;
   font-size: 16px;
   font-weight: bold;
@@ -371,7 +371,7 @@ b, strong {
   height: 8px;
 }
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background: #5b5b5b;
+  background: #7776B3;
 }
 
 .google-map iframe {
@@ -500,7 +500,7 @@ b, strong {
     display: none;
   }
 
-  .timeline-info small {
+  .settings-info small {
     display: block;
     margin: 10px 0 0 0;
   }
